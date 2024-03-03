@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeroesController" customModule="AppRocioiOSAvanzado" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="EiN-Ka-aY1" id="82S-rQ-LPQ"/>
+                <outlet property="descriptionLabel" destination="1F7-95-W9n" id="mUn-hO-JEJ"/>
+                <outlet property="imageFondo" destination="xHR-tH-a7u" id="Ou7-e2-K8D"/>
+                <outlet property="mapView" destination="9rN-Xm-fDj" id="Nql-0L-3xH"/>
+                <outlet property="nameLabel" destination="cdJ-v9-95E" id="zpd-c1-C4M"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="fondo2" translatesAutoresizingMaskIntoConstraints="NO" id="xHR-tH-a7u">
+                    <rect key="frame" x="0.0" y="3" width="393" height="852"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdJ-v9-95E">
+                    <rect key="frame" x="16" y="375" width="361" height="49"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="41"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rN-Xm-fDj">
+                    <rect key="frame" x="16" y="122" width="361" height="207"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="207" id="N3N-nn-xy8"/>
+                    </constraints>
+                    <standardMapConfiguration key="preferredConfiguration"/>
+                </mapView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXF-dX-iyq">
+                    <rect key="frame" x="14" y="59" width="79" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="gray" title="Heroes"/>
+                    <connections>
+                        <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="pOb-gJ-9We"/>
+                    </connections>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="EiN-Ka-aY1">
+                    <rect key="frame" x="16" y="706" width="361" height="112"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nDJ-Dn-MQx">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1F7-95-W9n" userLabel="descripcion">
+                    <rect key="frame" x="16" y="432" width="361" height="234"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="9rN-Xm-fDj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="122" id="9ir-jq-7VL"/>
+                <constraint firstItem="xHR-tH-a7u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A70-mo-AKa"/>
+                <constraint firstItem="xHR-tH-a7u" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GXb-g2-Ybl"/>
+                <constraint firstAttribute="trailing" secondItem="9rN-Xm-fDj" secondAttribute="trailing" constant="16" id="RzI-lT-OjI"/>
+                <constraint firstItem="cdJ-v9-95E" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="bB9-Dr-wfU"/>
+                <constraint firstItem="9rN-Xm-fDj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="dfW-Hs-Gx5"/>
+                <constraint firstAttribute="bottom" secondItem="xHR-tH-a7u" secondAttribute="bottom" id="gcp-ts-oEh"/>
+                <constraint firstAttribute="trailing" secondItem="xHR-tH-a7u" secondAttribute="trailing" id="s49-Hp-uXe"/>
+                <constraint firstAttribute="trailing" secondItem="cdJ-v9-95E" secondAttribute="trailing" constant="16" id="sXV-dt-tCT"/>
+                <constraint firstItem="cdJ-v9-95E" firstAttribute="top" secondItem="9rN-Xm-fDj" secondAttribute="bottom" constant="46" id="vCm-hE-cl1"/>
+            </constraints>
+            <point key="canvasLocation" x="26.717557251908396" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fondo2" width="372" height="647"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

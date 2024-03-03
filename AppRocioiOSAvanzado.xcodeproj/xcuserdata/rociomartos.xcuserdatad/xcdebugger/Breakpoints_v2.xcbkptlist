@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E744CB7B-278E-4EE1-9AE7-885089444868"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3C827F7-17C6-4A62-979B-2ADE05B0058E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppRocioiOSAvanzado/UI/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED0B48D0-7F72-4BC8-AD0C-978B5D37E00B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "HeroCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "ED0B48D0-7F72-4BC8-AD0C-978B5D37E00B - 4bdab6db2c487a89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.heroImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "ED0B48D0-7F72-4BC8-AD0C-978B5D37E00B - f19bc2ff9d8c0ebd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.heroImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "ED0B48D0-7F72-4BC8-AD0C-978B5D37E00B - d37dc1f0f60655d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.heroImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "ED0B48D0-7F72-4BC8-AD0C-978B5D37E00B - 7283d5a481c0b2ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.heroImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "ED0B48D0-7F72-4BC8-AD0C-978B5D37E00B - 6011308cc2fb8b18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; AppRocioiOSAvanzado.HeroCell"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "ED0B48D0-7F72-4BC8-AD0C-978B5D37E00B - a3cbd99895b83c79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AppRocioiOSAvanzado.HeroCell&gt;"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7B25E4A-2B26-4C2E-B30D-2D1EFFCF9576"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "F7B25E4A-2B26-4C2E-B30D-2D1EFFCF9576 - ff41846702403ca0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; AppRocioiOSAvanzado.HeroCell"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "F7B25E4A-2B26-4C2E-B30D-2D1EFFCF9576 - 6011308cc2fb8b3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; AppRocioiOSAvanzado.HeroCell"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "F7B25E4A-2B26-4C2E-B30D-2D1EFFCF9576 - 64ad96f731016a0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AppRocioiOSAvanzado.HeroCell&gt;"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "F7B25E4A-2B26-4C2E-B30D-2D1EFFCF9576 - a3cbd99895b83c5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AppRocioiOSAvanzado.HeroCell&gt;"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F7B25E4A-2B26-4C2E-B30D-2D1EFFCF9576 - daddec5c72c280ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppRocioiOSAvanzado.HeroCell.__deallocating_deinit"
+                  moduleName = "AppRocioiOSAvanzado"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rociomartos/Desktop/KeepCoding/BC%20Mobile/Practicas/AppRocioiOSAvanzado/AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroCell/HeroCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE335E87-DB47-4FDC-9E4A-231131E4A4E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppRocioiOSAvanzado/UI/Heroes/HeroesList/HeroeListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

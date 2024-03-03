@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="AppRocioiOSAvanzado" customModuleProvider="target">
+            <connections>
+                <outlet property="image" destination="UxA-5u-N2e" id="ePM-uw-If1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="fondo1" translatesAutoresizingMaskIntoConstraints="NO" id="UxA-5u-N2e">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="APP Rocío" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L51-19-gvF">
+                    <rect key="frame" x="16" y="773" width="361" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" systemColor="systemYellowColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="L51-19-gvF" secondAttribute="trailing" constant="16" id="8SL-Zj-plf"/>
+                <constraint firstItem="L51-19-gvF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="9mI-9j-geH"/>
+                <constraint firstItem="L51-19-gvF" firstAttribute="centerY" secondItem="UxA-5u-N2e" secondAttribute="centerY" id="A5B-0e-pNt"/>
+                <constraint firstAttribute="bottom" secondItem="UxA-5u-N2e" secondAttribute="bottom" id="JDo-O3-d48"/>
+                <constraint firstItem="UxA-5u-N2e" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hYS-od-thQ"/>
+                <constraint firstAttribute="trailing" secondItem="UxA-5u-N2e" secondAttribute="trailing" id="kez-2j-YjZ"/>
+                <constraint firstItem="UxA-5u-N2e" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nWs-qN-H45"/>
+            </constraints>
+            <point key="canvasLocation" x="35.877862595419849" y="-25.35211267605634"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fondo1" width="1116" height="1664"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
